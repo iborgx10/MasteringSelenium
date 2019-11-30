@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.masteringselenium.BasicIT
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.641 s <<< FAILURE! - in com.masteringselenium.BasicIT
+googleCheeseExample(com.masteringselenium.BasicIT)  Time elapsed: 6.395 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:36391
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GL5GRMA', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: InternetExplorerDriver
+	at com.masteringselenium.BasicIT.googleExampleThatSearchesFor(BasicIT.java:18)
+	at com.masteringselenium.BasicIT.googleCheeseExample(BasicIT.java:32)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:36391
+	at com.masteringselenium.BasicIT.googleExampleThatSearchesFor(BasicIT.java:18)
+	at com.masteringselenium.BasicIT.googleCheeseExample(BasicIT.java:32)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.masteringselenium.BasicIT.googleExampleThatSearchesFor(BasicIT.java:18)
+	at com.masteringselenium.BasicIT.googleCheeseExample(BasicIT.java:32)
+
+googleMilkExample(com.masteringselenium.BasicIT)  Time elapsed: 5.234 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:48263
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GL5GRMA', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: InternetExplorerDriver
+	at com.masteringselenium.BasicIT.googleExampleThatSearchesFor(BasicIT.java:18)
+	at com.masteringselenium.BasicIT.googleMilkExample(BasicIT.java:37)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:48263
+	at com.masteringselenium.BasicIT.googleExampleThatSearchesFor(BasicIT.java:18)
+	at com.masteringselenium.BasicIT.googleMilkExample(BasicIT.java:37)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.masteringselenium.BasicIT.googleExampleThatSearchesFor(BasicIT.java:18)
+	at com.masteringselenium.BasicIT.googleMilkExample(BasicIT.java:37)
+
